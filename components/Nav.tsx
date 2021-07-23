@@ -4,9 +4,9 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-  }
+function classNames(...classes: (false | null | undefined | string)[]): string {
+  return classes.filter(Boolean).join(' ')
+}
 
 export default function Nav() {
 
