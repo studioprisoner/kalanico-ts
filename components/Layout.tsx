@@ -21,7 +21,7 @@ const Layout = ({
       <meta property="og:url" content="https://www.kalani-co.com.au" key="url" />
       <meta property="og:type" content="Store" key="type"/>
       <meta property="og:image" content="https://www.kalani-co.com.au/images/front-page.webp" key="image" />
-      <meta property="og:description" content="Heavenly dried flower arrangements made from home with love." type="description" />
+      <meta property="og:description" content="Heavenly dried flower arrangements made from home with love." />
     </Head>
     <div className="relative overflow-hidden">
       <Nav />
