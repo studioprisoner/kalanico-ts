@@ -10,7 +10,7 @@ function SubscribeNew() {
     const [inputs, setInputs] = useState({
         email: ""
     });
-    const handleResponse = (status, msg) => {
+    const handleResponse = (status: number, msg: string) => {
         if (status === 200) {
             setStatus({
                 submitted: true,
@@ -26,7 +26,7 @@ function SubscribeNew() {
             });
         }
     };
-    const handleOnChange = e => {
+    const handleOnChange = (e: { persist: () => void; target: { id: any; value: any; }; }) => {
         e.persist();
         setInputs(prev => ({
             ...prev,
@@ -38,7 +38,7 @@ function SubscribeNew() {
             info: { error: false, msg: null }
         });
     };
-    const handleOnSubmit = async e => {
+    const handleOnSubmit = async (e: { preventDefault: () => void; }) => {
         e.preventDefault();
         setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
         const res = await fetch("/api/subscribe/subscribe", {
