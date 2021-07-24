@@ -1,7 +1,6 @@
 import { NextPage } from 'next'
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import Subscribe from '../components/Subscribe'
 
 const IndexPage: NextPage = () => {
   return (
@@ -31,7 +30,6 @@ const IndexPage: NextPage = () => {
           <img className="absolute inset-0 w-full h-full object-cover" src="front-page.webp" alt="Preserved Flowers" />
         </div>
       </main>
-      <Subscribe />
     </Layout>
   )
 }
