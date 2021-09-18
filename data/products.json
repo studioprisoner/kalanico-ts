@@ -1,5 +1,6 @@
 [
   {
+      "id": 1,
       "currency": "aud",
       "sku": "price_1IVBikEfO32OV4EwDqBu77oX",
       "name": "Kalani",
@@ -9,6 +10,7 @@
       "price": 23000
   },
   {
+      "id": 2,
       "currency": "aud",
       "sku": "price_1IWVpoEfO32OV4EwXtC98S3k",
       "name": "Sammy",
@@ -18,6 +20,7 @@
       "price": 18000
   },
   {
+      "id": 3,
       "currency": "aud",
       "sku": "price_1IWVqxEfO32OV4EwfvOlS1w6",
       "name": "Olivia",
@@ -27,6 +30,7 @@
       "price": 15000
   },
   {
+      "id": 4,
       "currency": "aud",
       "sku": "price_1IWVs8EfO32OV4Ew5pTmMnxN",
       "name": "Tayla",
@@ -36,6 +40,7 @@
       "price": 25000
   },
   {
+      "id": 5,
       "currency": "aud",
       "sku": "price_1IWVszEfO32OV4EwGP9oEV1s",
       "name": "Eden",
@@ -45,6 +50,7 @@
       "price": 17000
   },
   {
+      "id": 6,
       "currency": "aud",
       "sku": "price_1IWVunEfO32OV4Ew3S8sfsSg",
       "name": "Ella",
@@ -54,6 +60,7 @@
       "price": 9000
   },
   {
+      "id": 7,
       "currency": "aud",
       "sku": "price_1IWVtwEfO32OV4EwQxNCp8JJ",
       "name": "Irichell",
@@ -63,6 +70,7 @@
       "price": 12000
   },
   {
+      "id": 9,
       "currency": "aud",
       "sku": "price_1IWVwGEfO32OV4EwvYUGehdb",
       "name": "Jordyn",
@@ -72,6 +80,7 @@
       "price": 4000
   },
   {
+      "id": 10,
       "currency": "aud",
       "sku": "price_1IWVwwEfO32OV4EwJNOhBjtT",
       "name": "Honey Bee",
@@ -79,5 +88,25 @@
       "image": "products/honeybee/1.webp",
       "attribution": "Honey Bee",
       "price": 11000
-  }
+  },
+  {
+    "id": 11,
+    "currency": "aud",
+    "sku": "price_1JZSBxEfO32OV4EwFQiFSYF0",
+    "name": "Hazel",
+    "description": "Pampas grass stems with a hydrangea, a banksia, mountain daisies, bunny tails, mini gypsophila, straw flowers, a palm and mini billy buttons.",
+    "image": "products/hazel/1.webp",
+    "attribution": "Honey Bee",
+    "price": 12000
+},
+{
+    "id": 12,
+    "currency": "aud",
+    "sku": "price_1JZSJUEfO32OV4EwzSxz3Lm9",
+    "name": "Baby Hazel",
+    "description": "Like her older sister she’s filled with pampas grass stems with a hydrangea, a banksia, mountain daisies, bunny tails, mini gypsophila, straw flowers, a palm and mini billy buttons.",
+    "image": "products/babyhazel/1.webp",
+    "attribution": "Baby Hazel",
+    "price": 8000
+}
 ]
